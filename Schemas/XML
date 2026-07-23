@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="simple-tiling">
+  <schema id="org.gnome.shell.extensions.simple-tiling" path="/org/gnome/shell/extensions/simple-tiling/">
+    <key name="tile-left" type="as">
+      <default><![CDATA[['<Super>h']]></default>
+      <summary>Tile window to the left</summary>
+    </key>
+    <key name="tile-right" type="as">
+      <default><![CDATA[['<Super>l']]></default>
+      <summary>Tile window to the right</summary>
+    </key>
+    <key name="tile-up" type="as">
+      <default><![CDATA[['<Super>k']]></default>
+      <summary>Tile window upwards</summary>
+    </key>
+    <key name="tile-down" type="as">
+      <default><![CDATA[['<Super>j']]></default>
+      <summary>Tile window downwards</summary>
+    </key>
+    <key name="float-toggle" type="as">
+      <default><![CDATA[['<Super>space']]></default>
+      <summary>Toggle floating mode</summary>
+    </key>
+    <key name="resize-left" type="as">
+      <default><![CDATA[['<Control><Super>Left']]></default>
+      <summary>Resize window to the left</summary>
+    </key>
+    <key name="resize-right" type="as">
+      <default><![CDATA[['<Control><Super>Right']]></default>
+      <summary>Resize window to the right</summary>
+    </key>
+  </schema>
+</schemalist>
