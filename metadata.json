@@ -1,0 +1,13 @@
+{
+  "name": "Simple Tiling Extension",
+  "description": "Lightweight tiling window manager for GNOME Shell inspired by Forge",
+  "uuid": "simple-tiling@pope-ui.local",
+  "shell-version": ["45", "46", "47"],
+  "settings-schema": "org.gnome.shell.extensions.simple-tiling",
+  "version": 1,
+  "url": "https://github.com/pope-ui/simple-gnome-tiling",
+  "gettext-domain": "simple-tiling",
+  "donations": {
+    "patreon": "pope-ui"
+  }
+}
