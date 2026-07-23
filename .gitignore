@@ -1,0 +1,24 @@
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Compiled schemas
+schemas/*.gschema.compile
+schemas/*.gschema.mo
+
+# Build artifacts
+dist/
+build/
+
+# Log files
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+tmp.*
